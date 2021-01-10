@@ -30,7 +30,4 @@ const parse = str => {
   return result;
 };
 
-module.exports = {
-  queryString,
-  parse,
-};
+export { queryString, parse };
